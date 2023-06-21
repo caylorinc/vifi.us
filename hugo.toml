@@ -1,0 +1,65 @@
+baseURL = 'https://vifi.us/'
+title = 'VIFI Gaming'
+theme = "coder"
+languageCode = 'en'
+defaultcontentlanguage = "en"
+
+paginate = 20
+
+disqusShortname = "yourdiscussshortname"
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+  author = ""
+  info = ""
+  description = "VIFI GAMING"
+  keywords = "rust,gaming,server"
+  avatarurl = "images/vifi_gaming_logo.png"
+
+  favicon_32 = "/images/favicon-32x32.png"
+  favicon_16 = "/images/favicon-16x16.png"
+
+  since = 2023
+
+  enableTwemoji = true
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+  customCSS = ["css/custom_avatar.css"]
+  # customSCSS = ["scss/custom_avatar.scss"]
+  # customJS = ["js/custom.js"]
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Twitter"
+  icon = "fa fa-twitter fa-2x"
+  weight = 3
+  url = "https://twitter.com/vifigaming/"
+[[params.social]]
+  name = "Discord"
+  icon = "fa fa-discord fa-2x"
+  weight= 0
+  url = "https://discord.gg/sTWfDgaY6C"
+
+# Menu links
+[[menu.main]]
+  name = "Blog"
+  weight = 1
+  url  = "posts/"
+[[menu.main]]
+  name = "About"
+  weight = 2
+  url = "about/"
+[[menu.main]]
+  name = "Servers"
+  weight = 3
+  url = "servers/"
